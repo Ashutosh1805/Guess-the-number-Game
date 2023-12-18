@@ -12,10 +12,10 @@ int main()
 		scanf("%d",&guess);
 		if(guess>number)
 		{
-			printf("Lower case please");
+			printf("Lowercase please/n");
 		}
 		else if(guess<number){
-			printf("Uppercase please");
+			printf("Uppercase please/n");
 		}
 		else{
 			printf("You guessed it right in %d attempts\n",nguesses);
